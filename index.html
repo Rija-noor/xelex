@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="assets/images/logo.jpg">
+
+  <title>Xelex</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- nav css -->
+  <link rel="stylesheet" href="assets/style/nav.css">
+  <!-- cards css -->
+  <link rel="stylesheet" href="assets/style/cards.css">
+
+  <style>
+    h2 { color: white; }
+    html, body {
+  overflow-x: hidden;
+}
+
+  </style>
+</head>
+<body class="bg-black">
+  <header></header>
+
+  <!-- 🌟 HERO -->
+  <section class="relative w-full h-screen flex items-center justify-center text-center text-white" data-aos="fade-up">
+    <img src="https://images.unsplash.com/photo-1602810318383-e386cc2a3a9d?auto=format&fit=crop&w=1920&q=80"
+         class="absolute inset-0 w-full h-full object-cover opacity-20" alt="Background">
+    <div class="absolute inset-0 bg-black/80"></div>
+    <div class="relative z-10 px-6">
+      <h1 class="text-5xl md:text-6xl font-extrabold mb-4 tracking-widest" data-aos="fade-down">DEFINE YOUR STYLE</h1>
+      <p class="text-gray-300 mb-8 max-w-2xl mx-auto text-lg" data-aos="fade-up" data-aos-delay="200">
+        Premium Customized T-Shirts Designed Just for You.<br>
+        Express Yourself with <span class="text-white font-semibold">Xelex.</span>
+      </p>
+      <a href="shop.html" data-aos="fade-up" data-aos-delay="400"
+         class="bg-white text-black px-8 py-3 rounded-full font-semibold hover:bg-gray-200 transition-all shadow-lg hover:scale-105">
+        Order Now
+      </a>
+    </div>
+  </section>
+
+  <!-- 🖤 TRENDING CARDS -->
+  <section class="py-16 bg-black text-white" data-aos="fade-up">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-10 tracking-wide uppercase" data-aos="fade-down">New Arrivals</h2>
+      <div id="new-arrivals" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-center" data-aos="fade-up" data-aos-delay="200"></div>
+    </div>
+  </section>
+
+  <!-- 🌟 UNIQUE FEATURES -->
+  <section class="py-20 bg-black text-white text-center">
+    <h2 class="text-4xl font-bold mb-12 uppercase tracking-widest" data-aos="fade-down">Why Choose Xelex?</h2>
+    <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto px-6">
+      <div data-aos="fade-right" class="p-8 border border-white rounded-2xl hover:scale-105 transition-transform duration-500">
+        <i class="fa-solid fa-shirt text-5xl mb-4"></i>
+        <h3 class="text-2xl font-semibold mb-3">Premium Fabric</h3>
+        <p class="text-gray-400">Soft, breathable, and long-lasting material that feels great every time you wear it.</p>
+      </div>
+
+      <div data-aos="fade-up" class="p-8 border border-white rounded-2xl hover:scale-105 transition-transform duration-500">
+        <i class="fa-solid fa-palette text-5xl mb-4"></i>
+        <h3 class="text-2xl font-semibold mb-3">Custom Prints</h3>
+        <p class="text-gray-400">Add your own logo, quote, or image to make your T-shirt truly one of a kind.</p>
+      </div>
+
+      <div data-aos="fade-left" class="p-8 border border-white rounded-2xl hover:scale-105 transition-transform duration-500">
+        <i class="fa-solid fa-truck-fast text-5xl mb-4"></i>
+        <h3 class="text-2xl font-semibold mb-3">Fast Delivery</h3>
+        <p class="text-gray-400">Your customized order arrives at your doorstep within a few days — fast and safe.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🛍️ CUSTOMER REVIEWS -->
+  <section class="py-20 bg-black text-white text-center">
+    <h2 class="text-4xl font-bold mb-12 uppercase tracking-widest" data-aos="fade-down">What Our Customers Say</h2>
+    <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-8 px-6">
+      <div class="bg-black border border-white p-6 rounded-2xl hover:scale-105 transition-transform duration-500" data-aos="fade-right">
+        <p class="italic text-gray-300 mb-4">“The quality is top-notch and the print came out exactly as I designed!”</p>
+        <h4 class="font-semibold text-white">— Ayesha Khan</h4>
+      </div>
+
+      <div class="bg-black border border-white p-6 rounded-2xl hover:scale-105 transition-transform duration-500" data-aos="fade-up">
+        <p class="italic text-gray-300 mb-4">“Loved my oversized tee! Super comfy and the delivery was fast.”</p>
+        <h4 class="font-semibold text-white">— Hamza Ali</h4>
+      </div>
+
+      <div class="bg-black border border-white p-6 rounded-2xl hover:scale-105 transition-transform duration-500" data-aos="fade-left">
+        <p class="italic text-gray-300 mb-4">“Amazing service and unique customization options. Totally worth it!”</p>
+        <h4 class="font-semibold text-white">— Zara Malik</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🖤 INSTAGRAM GALLERY -->
+  <section class="bg-black text-white py-20" id="insta-gallery" data-aos="fade-up">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12 uppercase tracking-wider" data-aos="fade-down">Follow Us on Instagram</h2>
+      <p class="text-center text-gray-400 mb-12" data-aos="fade-up" data-aos-delay="200">@xelex.official</p>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="group relative overflow-hidden rounded-2xl" data-aos="fade-right">
+          <img src="assets/images/meeraj_black_back.jpg.jpeg" class="w-full h-80 object-cover transform group-hover:scale-110 transition-all duration-700">
+          <div class="absolute inset-0 bg-black/70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-700">
+            <i class="fab fa-instagram text-4xl text-white"></i>
+          </div>
+        </div>
+        <div class="group relative overflow-hidden rounded-2xl" data-aos="fade-up">
+          <img src="assets/images/4 group of cap hoodie.jpeg" class="w-full h-80 object-cover transform group-hover:scale-110 transition-all duration-700">
+          <div class="absolute inset-0 bg-black/70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-700">
+            <i class="fab fa-instagram text-4xl text-white"></i>
+          </div>
+        </div>
+        <div class="group relative overflow-hidden rounded-2xl" data-aos="fade-left">
+          <img src="assets/images/pink hoodie.jpeg" class="w-full h-80 object-cover transform group-hover:scale-110 transition-all duration-700">
+          <div class="absolute inset-0 bg-black/70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-700">
+            <i class="fab fa-instagram text-4xl text-white"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-12" data-aos="fade-up" data-aos-delay="300">
+        <a href="https://www.instagram.com/xelex_brand_75/?igsh=M2MzOGt4d3I1cnhr#" target="_blank"
+           class="inline-block bg-white text-black font-semibold px-6 py-3 rounded-full hover:bg-gray-200 transition-all">
+          Visit Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 💌 JOIN XELEX COMMUNITY -->
+  <section class="py-20 bg-white text-black text-center" data-aos="fade-up">
+    <h3 class="text-4xl font-bold mb-6 uppercase tracking-widest" data-aos="fade-down">Join the Xelex Community</h3>
+    <p class="text-gray-600 mb-8 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+      Get early access to new drops, giveaways, and exclusive deals directly in your inbox!
+    </p>
+    <form class="flex flex-col sm:flex-row justify-center gap-4 max-w-md mx-auto" data-aos="fade-up" data-aos-delay="400">
+      <input type="email" placeholder="Enter your email" class="px-4 py-3 border border-black rounded-full focus:outline-none w-full sm:w-auto">
+      <button class="bg-black text-white px-8 py-3 rounded-full hover:bg-gray-900 transition-all">Join Now</button>
+    </form>
+  </section>
+
+  <!-- ⚫ FOOTER -->
+  <footer class="bg-black text-white border-t border-gray-700 py-12" data-aos="fade-up">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-4 gap-10 text-center md:text-left">
+      <div data-aos="fade-right">
+        <h3 class="text-2xl font-bold mb-3 tracking-widest">XELEX</h3>
+        <p class="text-gray-400 text-sm">Redefine your wardrobe with personalized fashion made for you.</p>
+      </div>
+      <div data-aos="fade-up">
+        <h4 class="text-xl font-semibold mb-3">Quick Links</h4>
+        <ul class="space-y-2 text-gray-400">
+          <li><a href="index.html" class="hover:text-white">Home</a></li>
+          <li><a href="shop.html" class="hover:text-white">Shop</a></li>
+          <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+        </ul>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="200">
+        <h4 class="text-xl font-semibold mb-3">Support</h4>
+        <ul class="space-y-2 text-gray-400">
+          <li><a href="faq.html" target="_blank" class="hover:text-white">FAQs</a></li>
+          <li><a href="shipping.html" target="_blank" class="hover:text-white">Shipping Policy</a></li>
+          <li><a href="returns.html" target="_blank" class="hover:text-white">Return Policy</a></li>
+        </ul>
+      </div>
+      <div data-aos="fade-left">
+        <h4 class="text-xl font-semibold mb-3">Follow Us</h4>
+        <div class="flex justify-center md:justify-start gap-4 text-2xl">
+          <a href="https://www.instagram.com/xelex_brand_75/?igsh=M2MzOGt4d3I1cnhr#" target="_blank" class="hover:text-pink-500"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/xellexbrand?rdid=9ntH9pgnNMDPuuEX&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1FhPf7zdDF%2F#" target="_blank" class="hover:text-blue-500"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" class="hover:text-gray-300"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center text-gray-500 text-sm mt-10 border-t border-gray-700 pt-6">
+      © 2025 Xelex. All rights reserved. | Designed by Rija Noor 💻
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ duration: 1000, once: true });</script>
+  <script src="assets/js/nav.js"></script>
+  <script src="assets/js/newArrivals.js"></script>
+</body>
+</html>

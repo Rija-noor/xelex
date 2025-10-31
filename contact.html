@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="assets/images/logo.jpg">
+
+  <title>XELEX | Contact Us</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/style/nav.css">
+  <!-- EmailJS SDK -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function(){
+      emailjs.init("kUNhMdXKe4XmwL1-3"); // 🔹 Replace with your EmailJS public key
+    })();
+
+    function sendEmail(event) {
+      event.preventDefault();
+
+      const params = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        message: document.getElementById("message").value
+      };
+
+      emailjs.send("service_9lvobuh", "template_z5w03q9", params)
+      .then(function(response) {
+        alert("✅ Thank you! We’ll contact you soon.");
+        document.getElementById("contactForm").reset();
+      }, function(error) {
+        alert("❌ Failed to send message. Please try again later.");
+        console.log(error);
+      });
+    }
+  </script>
+</head>
+<header></header>
+<body class="bg-gray-50 mt-6">
+
+<section class="py-20 bg-gray-50">
+  <div class="max-w-5xl mx-auto px-6 text-center">
+    <h1 class="text-4xl font-bold mb-6 mt-6">Get in Touch 💬</h1>
+    <p class="text-gray-600 mb-10">Have questions or custom design requests? We’re here to help!</p>
+
+    <form id="contactForm" class="max-w-md mx-auto space-y-5" onsubmit="sendEmail(event)">
+      <input type="text" id="name" placeholder="Full Name" class="w-full p-3 border border-gray-300 rounded-lg" required>
+      <input type="email" id="email" placeholder="Email Address" class="w-full p-3 border border-gray-300 rounded-lg" required>
+      <textarea id="message" placeholder="Your Message" class="w-full p-3 border border-gray-300 rounded-lg h-32" required></textarea>
+      <button type="submit" class="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800">Send Message</button>
+    </form>
+  </div>
+</section>
+  <!-- ⚫ FOOTER -->
+   <footer class="bg-black text-white border-t border-gray-700 py-12" data-aos="fade-up">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-4 gap-10 text-center md:text-left">
+      <div data-aos="fade-right">
+        <h3 class="text-2xl font-bold mb-3 tracking-widest">XELEX</h3>
+        <p class="text-gray-400 text-sm">Redefine your wardrobe with personalized fashion made for you.</p>
+      </div>
+      <div data-aos="fade-up">
+        <h4 class="text-xl font-semibold mb-3">Quick Links</h4>
+        <ul class="space-y-2 text-gray-400">
+          <li><a href="index.html" class="hover:text-white">Home</a></li>
+          <li><a href="shop.html" class="hover:text-white">Shop</a></li>
+          <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+        </ul>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="200">
+        <h4 class="text-xl font-semibold mb-3">Support</h4>
+        <ul class="space-y-2 text-gray-400">
+          <li><a href="faq.html" target="_blank" class="hover:text-white">FAQs</a></li>
+          <li><a href="shipping.html" target="_blank" class="hover:text-white">Shipping Policy</a></li>
+          <li><a href="returns.html" target="_blank" class="hover:text-white">Return Policy</a></li>
+        </ul>
+      </div>
+      <div data-aos="fade-left">
+        <h4 class="text-xl font-semibold mb-3">Follow Us</h4>
+        <div class="flex justify-center md:justify-start gap-4 text-2xl">
+          <a href="https://www.instagram.com/xelex_brand_75/?igsh=M2MzOGt4d3I1cnhr#" target="_blank" class="hover:text-pink-500"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/xellexbrand?rdid=9ntH9pgnNMDPuuEX&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1FhPf7zdDF%2F#" target="_blank" class="hover:text-blue-500"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" class="hover:text-gray-300"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center text-gray-500 text-sm mt-10 border-t border-gray-700 pt-6">
+      © 2025 Xelex. All rights reserved. | Designed by Rija Noor 💻
+    </div>
+  </footer>
+
+</body>
+<script src="assets/js/nav.js"></script>
+</html>

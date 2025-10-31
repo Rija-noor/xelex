@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="assets/images/logo.jpg">
+
+  <title>Shop - XELEX</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/style/nav.css">
+  <link rel="stylesheet" href="assets/style/cards.css">
+</head>
+<style>
+#orderModal.show {
+  animation: fadeIn 0.3s ease forwards;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+h2{
+  color: white;
+}
+</style>
+<body class="bg-black">
+
+  <!-- 🖤 NAVBAR -->
+  <header></header>
+
+  <div class="container mx-auto px-4 mt-32">
+    <h2 data-aos="fade-down" class="text-4xl font-bold text-center tracking-wide uppercase mb-6">Our Collection Designs</h2>
+
+    <!-- 👚 Female Section -->
+    <section class="my-10" data-aos="fade-up">
+      <h2 class="text-2xl font-bold mb-4 text-center">Female Special</h2>
+      <div id="female-special" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"></div>
+    </section>
+
+    <!-- 👕 Male Hoodies -->
+    <section class="my-10" data-aos="fade-right">
+      <h2 class="text-2xl font-bold mb-4 text-center">Male Hoodies</h2>
+      <div id="male-hoodies" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"></div>
+    </section>
+
+    <!-- 🧢 Customized Tees -->
+    <section class="my-10" data-aos="fade-left">
+      <h2 class="text-2xl font-bold mb-4 text-center">Customized Tees & Hoodies</h2>
+      <div id="customized" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"></div>
+    </section>
+
+    <!-- 💞 Couple Fits -->
+    <section class="my-10" data-aos="fade-up">
+      <h2 class="text-2xl font-bold mb-4 text-center">Couple Fits</h2>
+      <div id="couple-fits" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"></div>
+    </section>
+  </div>
+
+  <!-- 🛒 Order Popup Modal -->
+  <div id="orderModal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+    <div class="bg-white w-full max-w-lg rounded-2xl shadow-2xl p-8 relative" data-aos="zoom-in">
+      <button id="closeModal" class="absolute top-3 right-4 text-2xl font-bold text-gray-600 hover:text-black">&times;</button>
+      <h3 class="text-3xl font-bold text-center mb-6 uppercase tracking-wider text-light">Place Your Order</h3>
+
+      <form id="orderForm" class="space-y-5">
+        <div>
+          <label class="block text-sm font-semibold mb-2">Your Name</label>
+          <input type="text" id="name" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black" placeholder="Enter your name" required>
+        </div>
+
+        <div>
+          <label class="block text-sm font-semibold mb-2">T-shirt Type</label>
+          <input type="text" id="type" class="w-full border border-gray-300 rounded-lg px-4 py-2 bg-gray-100 focus:outline-none" readonly>
+        </div>
+
+        <div>
+          <label class="block text-sm font-semibold mb-2">Size</label>
+          <select id="size" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black" required>
+            <option value="">Select size</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>XL</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-sm font-semibold mb-2">Quantity</label>
+          <input type="number" id="quantity" min="1" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black" placeholder="Enter quantity" required>
+        </div>
+
+        <div>
+          <label class="block text-sm font-semibold mb-2">Custom Text / Design Notes</label>
+          <textarea id="notes" rows="3" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black" placeholder="Enter your design notes"></textarea>
+        </div>
+
+        <button type="submit" class="w-full bg-black text-white font-semibold py-3 rounded-lg hover:bg-gray-800 transition-all">
+          Send to WhatsApp
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ⚫ FOOTER -->
+  <footer class="bg-black text-white border-t border-gray-700 py-12" data-aos="fade-up">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-4 gap-10 text-center md:text-left">
+      <div data-aos="fade-right">
+        <h3 class="text-2xl font-bold mb-3 tracking-widest">XELEX</h3>
+        <p class="text-gray-400 text-sm">Redefine your wardrobe with personalized fashion made for you.</p>
+      </div>
+      <div data-aos="fade-up">
+        <h4 class="text-xl font-semibold mb-3">Quick Links</h4>
+        <ul class="space-y-2 text-gray-400">
+          <li><a href="index.html" class="hover:text-white">Home</a></li>
+          <li><a href="shop.html" class="hover:text-white">Shop</a></li>
+          <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+        </ul>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="200">
+        <h4 class="text-xl font-semibold mb-3">Support</h4>
+        <ul class="space-y-2 text-gray-400">
+          <li><a href="faq.html" target="_blank" class="hover:text-white">FAQs</a></li>
+          <li><a href="shipping.html" target="_blank" class="hover:text-white">Shipping Policy</a></li>
+          <li><a href="returns.html" target="_blank" class="hover:text-white">Return Policy</a></li>
+        </ul>
+      </div>
+      <div data-aos="fade-left">
+        <h4 class="text-xl font-semibold mb-3">Follow Us</h4>
+        <div class="flex justify-center md:justify-start gap-4 text-2xl">
+          <a href="https://www.instagram.com/xelex_brand_75/?igsh=M2MzOGt4d3I1cnhr#" target="_blank" class="hover:text-pink-500"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/xellexbrand?rdid=9ntH9pgnNMDPuuEX&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1FhPf7zdDF%2F#" target="_blank" class="hover:text-blue-500"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" class="hover:text-gray-300"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center text-gray-500 text-sm mt-10 border-t border-gray-700 pt-6">
+      © 2025 Xelex. All rights reserved. | Designed by Rija Noor 💻
+    </div>
+  </footer>
+
+
+  <!-- 🌐 SCRIPTS -->
+  <script src="assets/js/nav.js"></script>
+  <script src="assets/js/designCards.js"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+</body>
+</html>
