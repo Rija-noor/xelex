@@ -1,0 +1,10 @@
+[
+  { "image": "assets/images/couple jacket blue.jpeg", "name": "His & Hers","oldPrice": "5000",
+    "newPrice": "₨3999" },
+  { "image": "assets/images/couple jacket brown.jpeg", "name": "Couple Jackets In Brown","oldPrice": "5000",
+    "newPrice": "₨3999" },
+  { "image": "assets/images/couple jacket green.jpeg", "name": "Matching Jackets In Green","oldPrice": "5000",
+    "newPrice": "₨3999" },
+  { "image": "assets/images/couple jacket yellow.jpeg", "name": "Couple Fit In Yellow","oldPrice": "5000",
+    "newPrice": "₨3999" }
+]

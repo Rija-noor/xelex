@@ -1,0 +1,35 @@
+[
+  { "image": "assets/images/meeraj_black_back.jpg.jpeg", "name": "Meeraj Graphic Tee - Black","oldPrice": "₨3500",
+    "newPrice": "₨1699" },
+  { "image": "assets/images/meeraj_blue_front.jpg.jpeg", "name": "Meeraj Graphic Tee - Blue","oldPrice": "₨3500",
+    "newPrice": "₨1699" },
+  { "image": "assets/images/meeraj_red_front.jpg.jpeg", "name": "Meeraj Graphic Tee - Red","oldPrice": "₨3500",
+    "newPrice": "₨1699" },
+  {
+    "image": "assets/images/double pocket jack G.jpeg",
+    "name": "Double Pocket Jacket In GREEN - Winter Collection",
+    "oldPrice": "₨5000",
+    "newPrice": "₨2399"
+  },
+    {
+    "image": "assets/images/double pocket jack grey.jpeg",
+    "name": "Double Pocket Jacket In GREY - Winter Collection",
+    "oldPrice": "₨5000",
+    "newPrice": "₨2399"
+  },
+    {
+    "image": "assets/images/double pocket jack black.jpeg",
+    "name": "Double Pocket Jacket In BLACK - Winter Collection",
+    "oldPrice": "₨5000",
+    "newPrice": "₨2399"
+  },
+    {
+    "image": "assets/images/double pocket jack blue.jpeg",
+    "name": "Double Pocket Jacket In BLUE - Winter Collection",
+    "oldPrice": "₨5000",
+    "newPrice": "₨2399"
+  }
+
+
+
+]

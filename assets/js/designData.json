@@ -1,0 +1,40 @@
+// [
+//   {
+//     "category": "Male Hoodies",
+//     "items": [
+//       { "image": "assets/images/black shirt hoodie.jpeg", "name": "Classic Black Hoodie", "price": "Rs. 2499" },
+//       { "image": "assets/images/pink hoodie.jpeg", "name": "Classic Pink Hoodie", "price": "Rs. 2499" },
+//       { "image": "assets/images/green shirt hoodie.jpeg", "name": "Classic Green Hoodie", "price": "Rs. 2799" },
+//       { "image": "assets/images/ligth blue shirt hoodie.jpeg", "name": "Classic Light Blue Hoodie", "price": "Rs. 2999" },
+//       { "image": "assets/images/Dark blue shirt hoodie.jpeg", "name": "Classic Dark Blue Hoodie", "price": "Rs. 2999" },
+//       { "image": "assets/images/yellow shirt hoodie.jpeg", "name": "Classic Yellow Hoodie", "price": "Rs. 2799" },
+//       { "image": "assets/images/white hoodie with cap.jpeg", "name": "Classic White Hoodie With Cap", "price": "Rs. 2799" },
+//       { "image": "assets/images/skin hoodie.jpeg", "name": "Classic Skin Hoodie", "price": "Rs. 2799" },
+//       { "image": "assets/images/skin hoodie with cap.jpeg", "name": "Classic Skin Hoodie With Cap", "price": "Rs. 2799" },
+//       { "image": "assets/images/red hoodie with cap.jpeg", "name": "Classic Red Hoodie With Cap", "price": "Rs. 2799" },
+//       { "image": "assets/images/kahi green hoodie with cap.jpeg", "name": "Classic Khaki Green Hoodie With Cap", "price": "Rs. 2799" }
+//     ]
+//   },
+//   {
+//     "category": "Females Special",
+//     "items": [
+//       { "image": "assets/images/pink sweater female.jpeg", "name": "Cozy Winter TEE Shirt", "price": "Rs. 2599" },
+//       { "image": "assets/images/pink sweater.jpeg", "name": "Pink Stylish Jacket", "price": "Rs. 2899" }
+//     ]
+//   },
+//   {
+//     "category": "Customized Tees & Hoodies",
+//     "items": [
+//       { "image": "assets/images/custom design 1.jpeg", "name": "Your Design Tee", "price": "Rs. 1999" }
+//     ]
+//   },
+//   {
+//     "category": "Couple Fits",
+//     "items": [
+//       { "image": "assets/images/couple jacket blue.jpeg", "name": "His & Hers", "price": "Rs. 3299 (Set)" },
+//       { "image": "assets/images/couple jacket brown.jpeg", "name": "Couple Jackets In Brown", "price": "Rs. 3799 (Set)" },
+//       { "image": "assets/images/couple jacket green.jpeg", "name": "Matching Jackets In Green", "price": "Rs. 3499 (Set)" },
+//       { "image": "assets/images/couple jacket yellow.jpeg", "name": "Couple Fit In Yellow", "price": "Rs. 3499 (Set)" }
+//     ]
+//   }
+// ]

@@ -1,0 +1,18 @@
+/* 🔄 Scroll Animation */
+    @keyframes scrollText {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+    .scrolling-text {
+      display: inline-block;
+      white-space: nowrap;
+      animation: scrollText 15s linear infinite;
+    } 
+    nav a {
+  color: white;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: gray;
+}
