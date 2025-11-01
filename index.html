@@ -195,12 +195,6 @@
       <button id="closeModal" class="absolute top-3 right-4 text-2xl font-bold text-gray-600 hover:text-black">&times;</button>
       <h3 class="text-3xl font-bold text-center mb-6 uppercase tracking-wider text-light">Place Your Order</h3>
 <div class="relative bg-white p-6 rounded-2xl shadow-lg w-full max-w-md mx-auto h-[450px] overflow-y-auto">
-  <!-- Close Button -->
-  <button 
-    onclick="closeForm()" 
-    class="absolute top-3 right-3 bg-black text-white rounded-full w-8 h-8 flex items-center justify-center hover:bg-red-600 transition-all">
-    ✕
-  </button>
 
   <!-- Order Form -->
   <form id="orderForm" class="space-y-5 mt-6">
@@ -242,6 +236,29 @@
     </button>
   </form>
 </div>
+<script>
+// Get elements
+const orderModal = document.getElementById("orderModal");
+const closeBtn = document.getElementById("closeModal");
+
+// ✅ Close modal when "X" button is clicked
+closeBtn.addEventListener("click", () => {
+  orderModal.classList.add("hidden");
+});
+
+// ✅ Close modal when user clicks outside the form
+window.addEventListener("click", (e) => {
+  if (e.target === orderModal) {
+    orderModal.classList.add("hidden");
+  }
+});
+
+// ✅ Close modal when inner ✕ button is clicked (inside the form)
+function closeForm() {
+  orderModal.classList.add("hidden");
+}
+</script>
+
 
 <!-- JS for Close Button -->
 <script>
