@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
   <span class="text-white font-semibold">${item.newPrice}</span>
 </div>
                 </div>
-                <div class="flip-back bg-white text-black rounded-2xl flex flex-col justify-center items-center p-6">
+                <div class="flip-back bg-white text-black rounded-2xl flex flex-col justify-center items-center p-6 border border-black p-3">
                   <p class="mb-4 text-center">Exclusive ${item.name} — perfect for your style.</p>
                   <div class="flex gap-3">
                     <!-- ✅ Added data-product + class="order-btn" -->
