@@ -28,8 +28,57 @@
     "name": "Double Pocket Jacket In BLUE - Winter Collection",
     "oldPrice": "₨5000",
     "newPrice": "₨2399"
+  },
+  
+  {
+    "image": "assets/images/double pocket jack black.jpeg",
+    "name": "Double Pocket Jacket In BLACK - Winter Collection",
+    "oldPrice": "₨5000",
+    "newPrice": "₨2399"
+  },
+  {
+    "image": "assets/images/img (13).jpeg",
+    "name": "Tracksuit - Winter Collection",
+    "oldPrice": "₨2500",
+    "newPrice": "₨1999"
+  },
+  {
+    "image": "assets/images/img (4).jpeg",
+    "name": "Tracksuit - Winter Collection",
+    "oldPrice": "₨2500",
+    "newPrice": "₨1999"
+  },{
+    "image": "assets/images/img (5).jpeg",
+    "name": "Zip Style Stripe Tracksuit- Winter Collection",
+    "oldPrice": "₨5000",
+    "newPrice": "₨1599"
+  },{
+    "image": "assets/images/img (6).jpeg",
+    "name": "Zip Style Stripe Tracksuit- Winter Collection",
+    "oldPrice": "₨5000",
+    "newPrice": "₨1599"
+  },{
+    "image": "assets/images/img (7).jpeg",
+    "name": "Zip Style Stripe Tracksuit- Winter Collection",
+    "oldPrice": "₨5000",
+    "newPrice": "₨1599"
+  },{
+    "image": "assets/images/img (8).jpeg",
+    "name": "Contrast Panel Printed Sweatshirt- Winter Collection",
+    "oldPrice": "₨3000",
+    "newPrice": "₨999"
+  },{
+    "image": "assets/images/img (9).jpeg",
+    "name": "Contrast Panel Printed Sweatshirt- Winter Collection",
+    "oldPrice": "₨3000",
+    "newPrice": "₨999"
+  },
+  {
+    "image": "assets/images/img (10).jpeg",
+    "name": "Contrast Panel Printed Sweatshirt- Winter Collection",
+    "oldPrice": "₨3000",
+    "newPrice": "₨999"
   }
-
 
 
 ]
