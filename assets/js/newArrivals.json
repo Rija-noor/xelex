@@ -1,83 +1,100 @@
 [
   { "image": "assets/images/meeraj_black_back.jpg.jpeg", "name": "Meeraj Graphic Tee - Black","oldPrice": "₨3500",
-    "newPrice": "₨1699" },
+    "newPrice": "₨1699",  "badge": "Sold out"
+},
   { "image": "assets/images/meeraj_blue_front.jpg.jpeg", "name": "Meeraj Graphic Tee - Blue","oldPrice": "₨3500",
-    "newPrice": "₨1699" },
+    "newPrice": "₨1699"  , "badge": "NEW"
+},
   { "image": "assets/images/meeraj_red_front.jpg.jpeg", "name": "Meeraj Graphic Tee - Red","oldPrice": "₨3500",
-    "newPrice": "₨1699" },
+    "newPrice": "₨1699"  , "badge": "NEW"
+},
   {
     "image": "assets/images/double pocket jack G.jpeg",
     "name": "Double Pocket Jacket In GREEN - Winter Collection",
     "oldPrice": "₨5000",
     "newPrice": "₨2399"
-  },
+   , "badge": "Limited"
+},
     {
     "image": "assets/images/double pocket jack grey.jpeg",
     "name": "Double Pocket Jacket In GREY - Winter Collection",
     "oldPrice": "₨5000",
     "newPrice": "₨2399"
-  },
+   , "badge": "Limited"
+},
     {
     "image": "assets/images/double pocket jack black.jpeg",
     "name": "Double Pocket Jacket In BLACK - Winter Collection",
     "oldPrice": "₨5000",
     "newPrice": "₨2399"
-  },
+   , "badge": "Limited"
+},
     {
     "image": "assets/images/double pocket jack blue.jpeg",
     "name": "Double Pocket Jacket In BLUE - Winter Collection",
     "oldPrice": "₨5000",
     "newPrice": "₨2399"
-  },
+   , "badge": "Limited"
+},
   
   {
     "image": "assets/images/double pocket jack black.jpeg",
     "name": "Double Pocket Jacket In BLACK - Winter Collection",
     "oldPrice": "₨5000",
     "newPrice": "₨2399"
-  },
+   , "badge": "Limited"
+},
   {
     "image": "assets/images/img (13).jpeg",
     "name": "Tracksuit - Winter Collection",
     "oldPrice": "₨2500",
     "newPrice": "₨1999"
-  },
+   , "badge": "NEW"
+},
   {
     "image": "assets/images/img (4).jpeg",
     "name": "Tracksuit - Winter Collection",
     "oldPrice": "₨2500",
     "newPrice": "₨1999"
-  },{
+   , "badge": "NEW"
+},{
     "image": "assets/images/img (5).jpeg",
     "name": "Zip Style Stripe Tracksuit- Winter Collection",
     "oldPrice": "₨5000",
     "newPrice": "₨1599"
-  },{
+   , "badge": "NEW"
+},{
     "image": "assets/images/img (6).jpeg",
     "name": "Zip Style Stripe Tracksuit- Winter Collection",
     "oldPrice": "₨5000",
     "newPrice": "₨1599"
-  },{
+   , "badge": "NEW"
+},{
     "image": "assets/images/img (7).jpeg",
     "name": "Zip Style Stripe Tracksuit- Winter Collection",
     "oldPrice": "₨5000",
     "newPrice": "₨1599"
-  },{
+   , "badge": "NEW"
+},{
     "image": "assets/images/img (8).jpeg",
     "name": "Contrast Panel Printed Sweatshirt- Winter Collection",
     "oldPrice": "₨3000",
     "newPrice": "₨999"
-  },{
+   , "badge": "1.1 SALE"
+},{
     "image": "assets/images/img (9).jpeg",
     "name": "Contrast Panel Printed Sweatshirt- Winter Collection",
     "oldPrice": "₨3000",
     "newPrice": "₨999"
-  },
+   , "badge": "1.1 SALE"
+},
   {
     "image": "assets/images/img (10).jpeg",
     "name": "Contrast Panel Printed Sweatshirt- Winter Collection",
     "oldPrice": "₨3000",
-    "newPrice": "₨999"
+    "newPrice": "₨999",
+     "badge": "1.1 SALE"
+
   }
 
 

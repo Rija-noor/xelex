@@ -11,6 +11,8 @@ document.addEventListener("DOMContentLoaded", () => {
      <div class="flip-card">
               <div class="flip-inner">
                 <div class="flip-front bg-black border border-white rounded-2xl flex flex-col items-center justify-center p-6">
+                ${item.badge ? `<span class="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full">${item.badge}</span>` : ""}
+
                   <img src="${item.image}" 
      class="w-48 h-48 rounded-xl mb-4 border-2 border-white object-cover transform transition-transform duration-500 hover:scale-105" 
      alt="${item.name}">
